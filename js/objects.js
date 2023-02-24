@@ -6,7 +6,7 @@
     weight: 64,
     hobby: ["football", "programming"],
     doHomework: function(subject) {
-        console.log("Зараз роблю домашку з ${subject}.");
+        console.log(`Зараз роблю домашку з ${subject}.`);
  },
  takeWalk: function(weather) {
     if (weather === "сонячно") {
